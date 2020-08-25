@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bg-gris {
+    padding-top: 50px;
+    background-color: #000000;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    background: url(../img/flequillos0000.png);
+    top: 500px;
+}
+
+header .container {
+    position: relative;
+}
+
+.navbar-toggle {
+    color: white;
+}
+
+header .navbar-expand-lg .navbar-nav .nav-link {
+    color: #ffffff;
+    font-size: 25px;
+    margin: 3px;
+    z-index: 2;
+}
+
+header .navbar-expand-lg .navbar-nav .dropdown-menu {
+    float: left;
+}
+
+header .bg-gris .navbar-collapse {
+    position: relative;
+    left: 320px;
+}
+
+header .container img {
+    width: 30px;
+    margin: 3px;
+    margin-left: 10px;
+}
+
+header .container::before {
+    content: "";
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    background: url(../img/logo0000.png);
+    background-repeat: no-repeat;
+}
+
+header .carousel .carousel-item h5 {
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+header .carousel .carousel-item button {
+    background: none;
+    border-radius: 10px;
+    border-color: #cb6725;
+    padding: 15px;
+    margin-bottom: 350px;
+    font-size: 30px;
+    color: #cb6725;
+    border-width: 5px;
+    font-weight: bold;
+}
+
+header .carousel .carousel-item button img {
+    width: 50px;
+    margin-left: 15px;
+}
+
+.servicios .container h2 {
+    margin-top: 50px;
+    padding-bottom: 15px;
+    font-size: 40px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.servicios .container h2::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background-color: #000000;
+    bottom: 0;
+}
+
+.servicios .container h4 {
+    margin: 80px 35px;
+    font-size: 30px;
+}
+
+.servicios .container h4 b {
+    color: #cb6725;
+}
+
+.servicios .container .vender img {
+    display: inline-block;
+}
+
+.servicios .container .vender p {
+    display: inline-block;
+    font-size: 25px;
+    float: right;
+    margin-top: 60px;
+}
+
+.servicios .container .vender p b {
+    color: #cb6725;
+    font-size: 28px;
+}
+
+.servicios .container .comprar p {
+    display: inline-block;
+    font-size: 25px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.servicios .container .comprar p b {
+    color: #cb6725;
+    font-size: 28px;
+}
+
+.servicios .container .comprar img {
+    display: inline-block;
+    float: right;
+    margin-bottom: 30px;
+}
+
+.ubicacion {
+    width: 100%;
+    height: 750px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    position: relative;
+}
+
+.post-content {
+    /* background: none repeat scroll 0 0 #FFFFFF; */
+    /* opacity: 0.5; */
+    margin: -54px 20px 12px;
+    position: relative;
+}
+
+.ubicacion .container .text {
+    /* width: 50%; */
+    text-align: center;
+    margin: 100px;
+    padding: 50px;
+    position: relative;
+    max-width: 700px;
+}
+
+.ubicacion .container .text h3 {
+    padding: 5px;
+    font-size: 35px;
+    color: #cb6725;
+    margin-top: -700px;
+}
+
+.ubicacion .container .text p {
+    padding: 5px;
+    font-size: 25px;
+    margin-top: 0 auto;
+}
+
+#ofertas {
+    margin-bottom: 30px;
+}
+
+#ofertas .container h3 {
+    font-size: 45px;
+}
+
+#ofertas .container .row .col-md-8 .cont-item button {
+    padding: 15px;
+    background-color: #cb6725;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 40px;
+}
+
+#ofertas .container .row .col-md-4 .cont-text button {
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.carousel-control-next-icon {
+    width: 30px;
+    height: 30px;
+    background: url(../img/n0000.png);
+}
+
+.carousel-control-prev-icon {
+    width: 30px;
+    height: 30px;
+    background: url(../img/-n0000.png);
+}
+
+#moda {
+    background: url(../img/moda0000.png);
+}
+
+#campo {
+    background: url(../img/campo0000.png);
+}
+
+#tec {
+    background: url(../img/tecnologia0000.png);
+}
+
+.nosotros {
+    background-color: #e6b34a;
+}
+
+.nosotros .container h3 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    padding-top: 80px;
+    font-size: 40px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.nosotros .container h3::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background-color: #000000;
+    bottom: 0;
+}
+
+.nosotros .container p {
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.nosotros .container .cont-item .persona1 {
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    margin: 15px;
+}
+
+.nosotros .container .cont-item .persona2 {
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    margin: 15px;
+}
+
+.nosotros .container .cont-item .persona3 {
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    margin: 15px;
+}
+
+.nosotros .container .cont-item .persona4 {
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    margin: 10px 40px 10px 180px;
+}
+
+.nosotros .container .cont-item .persona5 {
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    margin: 10px 40px;
+}
+
+footer {
+    position: relative;
+    padding: 15px;
+    margin: 10px;
+}
+
+footer .container u {
+    color: #000000;
+    font-size: 20px;
+    margin: 20px;
+    padding: 10px;
+}
+
+footer .container .redes {
+    text-align: right;
+}
